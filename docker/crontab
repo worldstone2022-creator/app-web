@@ -1,0 +1,2 @@
+# Laravel Scheduler - Execute every minute
+* * * * * cd /var/www && su -s /bin/sh www-data -c 'php artisan schedule:run' >> /var/log/cron.log 2>&1
